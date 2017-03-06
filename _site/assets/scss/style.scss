@@ -47,7 +47,7 @@ header.masthead {
 
 	width: 100%;
 
-	// background: rgba(0,0,0,0.3);	
+	// background: rgba(0,0,0,0.3);
 	// margin-top: -2rem;
 	position: relative;
 	top: -3.5rem;
@@ -76,7 +76,7 @@ header.masthead {
 // .window {
 // 	border: 1px solid black;
 // 	height: 350px;
-// 
+//
 
 .work {
 	// @extend %padding-top;
@@ -100,16 +100,16 @@ header.masthead {
 			@include medium {
 				// width: 57.5%;
 				width: 45%;
-				max-height: calc(auto - 120px);	
+				max-height: calc(auto - 120px);
 			}
-			
+
 		}
 
 		&--medium {
 			// width: 52.5%;
 			@include medium {
 				width: 45%;
-				margin-right: 0;	
+				margin-right: 0;
 			}
 		}
 	}
@@ -124,12 +124,12 @@ header.masthead {
   // display: flex;
   justify-content: space-between;
   flex-direction: column;
-  
+
   &__title {
   	width: 100%;
   	display: flex;
   	justify-content: space-between;
-	padding: 0 1rem 0.75rem; 
+	padding: 0 1rem 0.75rem;
 
   	// border: 1px solid blue;
   	@extend %dark;
@@ -138,13 +138,13 @@ header.masthead {
   		background: white;
 		color: black;
 		position: relative;
-		bottom: -3px;	
+		bottom: -3px;
 
 		span {
 			background: black;
 		}
   	}
-  	
+
 	// .window__title__button-group span {
 	// 	background: black;
 	// }
@@ -155,17 +155,20 @@ header.masthead {
 
 	    position: relative;
 	    bottom: -10px;
-	    right: -12px;
+
+		@include small {
+			right: -12px;			
+		}
 
 	    &__button, span {
 	    	width: 11px;
 		    height: 11px;
 		    background: white;
 		    margin-right: 10px;
-		    border-radius: 50%;	
+		    border-radius: 50%;
 	    }
 	  }
-	  
+
 	  &__url {
 	    text-align: center;
 	    font-size: 0.725rem;
@@ -185,10 +188,10 @@ header.masthead {
   	overflow: hidden;
   	@extend %dark;
   }
-  
 
-   
-  
+
+
+
 }
 
 // .work__module:nth-of-type(1) {
@@ -203,7 +206,7 @@ header.masthead {
 
 
 // 		.window__title__button-group span {
-		
+
 // 			background: black;
 // 		}
 // 	}
@@ -213,7 +216,7 @@ header.masthead {
 	align-self: flex-end;
 
 	.window__title {
-		
+
 	}
 }
 
@@ -237,7 +240,7 @@ header.masthead {
 	}
 
 	hr {
-		background: white; 
+		background: white;
 	}
 
 	.archive__list__title {
@@ -273,13 +276,13 @@ header.masthead {
 
 		@include small {
 			padding: 2.5rem;
-			
+
 			width: 50%;
 		}
 
 		@include medium {
 			padding: 4rem 6.65rem;
-			
+
 		}
 	}
 
@@ -376,7 +379,7 @@ header.masthead {
 	    	}
 		}
 
-		
+
 
 	}
 
@@ -403,38 +406,3 @@ header.masthead {
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
