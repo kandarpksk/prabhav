@@ -1,69 +1,248 @@
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Prabhav Khandelwal</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+title: Home
+---
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+<header class="section--full section--full--space-around masthead">
+	<div class="col col--1">
+		Hi, I'm Prabhav Khandelwal.
+		<a href="#" class="nav-toggle nav-toggle--more">more</a>
+	</div>
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <h1>
-            Hi, I'm Prabhav Khandelwal. I make websites &amp; stuff.<br>
-            Please bare with this site as I continue procrastinating to make a portfolio.
-        </h1>
+	<div class="col col--2 align-right">
+		I make websites and stuff.
+	</div>
+</header>
 
-        <hr>
+{% include about__content.html %}
 
-        <h2>Stuff I made that's still sort of alive.</h2>
+<section class="section--full work">
+		<div class="work__module work__module--large">
+			<div class="window">
 
-        <ul>
-            <li><a href="http://thezine.biz/">The &rsquo;Zine</a>&mdash; Online magazine run by Meghna Gulati that seeks to provide a platform for opinion and thought.</li>
-            <li><a href="http://varunchoprafilms.com/">Varun Chopra's Portfolio</a>&mdash; Portfolio for the award-winning filmmaker, Varun Chopra.</li>
-        </ul>
+				<div class="window__title">
 
-        <hr>
+					<div class="window__title__button-group">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="window__title__url">
+						<a href="http://thezine.biz">thezine.biz</a>
+					</div>
 
-        <h2>An archive of stuff that got swept under the rug.</h2>
-        <ul>
-            <li><a href="http://zine-old.prabhav.xyz/">The &rsquo;Zine v1</a>&mdash; The old site for The &rsquo;Zine. Was pretty, but bad backend + non-functional design.</li>
-            <li><a href="http://modules.prabhav.xyz/">Modules</a>&mdash; A one-issue-wonder music magazine.</li>
-            <li><a href="http://munqsmun.com/">MUNQSMUN</a>&mdash; Model UN Conference hosted by my high school.</li>
-            <li><a href="http://modules-splash.prabhav.xyz/">Modules Splash Page</a>&mdash; Bright and bold landing page for Modules. I really liked how opinionated this was.</li>
-            <li><a href="http://personalitypillars.prabhav.xyz/">Personality Pillars</a>&mdash; Site for my friend's mom's personality development class. The way I got paid for this one was super cute.</li>
-            <li><a href="http://collegify.prabhav.xyz/">Collegify</a>&mdash; Splash page for a college admissions consultancy. This one never got to see the light of day.</li>
-            <li><a href="http://exun.prabhav.xyz/">Exun Prelims</a>&mdash; Cute little page I whipped up for the Creative Event at Exun, DPS RK Puram. 2014? 2015? Huh?</li>
-            <li><a href="http://milkyway.prabhav.xyz/">MilkyWay</a>&mdash; Page for the fun android game, MilkyWay. Made by one of my best friends in the world, when he was 15.</li>
-            <li><a href="http://warp.prabhav.xyz/">WarP</a>&mdash; The event site for the annual competition my school's computer club hosts. This one's from 2014? 2015? Huh?</li>
-            <li><a href="http://blackandyellow.prabhav.xyz/">Black &amp; Yellow</a>&mdash; Random shit I cooked up in all the weird places. This one never fails to make me smile.</li>
-        </ul>
-        <p>
-            The web sure is fluid &amp; dynamic, but that also makes the things it holds ephemeral.
-        </p>
+					<div class="filler"></div>
 
-        <hr>
+				</div>
 
-        <p>
-            <a href="mailto:me@prabhavkhandelwal.com">me@prabhavkhandelwal.com</a> &middot;
-            <a href="http://twitter.com/helloprabhav">@helloprabhav</a> &middot;
-            <a href="http://dribbble.com/prabhav">Unorganized collection of glorified doodles</a>
-        </p>
+				<a href="{{ site.baseurl }}/zine">
+					<div class="window__body">
+						<img src="{{ site.baseurl }}/assets/img/shot--zine1.png">
+					</div>	
+				</a>	
+				
+			</div>
+			<p class="work__text">
+				<span class="work__text__title">The &rsquo;Zine</span>
+				&mdash;
+				<span class="work__text__content">
+					Online magazine run by Meghna Gulati that seeks to provide a platform for opinion and thought.
+				</span>
+			</p>
 
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		</div>
 
-          ga('create', 'UA-37562621-1', 'auto');
-          ga('send', 'pageview');
+		<div class="work__module work__module--medium">
+			<div class="window">
 
-        </script>
-    </body>
-</html>
+				<div class="window__title">
+
+					<div class="window__title__button-group">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="window__title__url">
+						<a href="http://varunchoprafilms.com">varunchoprafilms.com</a>
+					</div>
+
+					<div class="filler"></div>
+
+				</div>
+
+				<a href="{{ site.baseurl }}/project">
+					<div class="window__body">
+						<img src="{{ site.baseurl }}/assets/img/shot--vc1.png">
+					</div>	
+				</a>	
+				
+			</div>
+			<p class="work__text">
+				<span class="work__text__title">Varun Chopra&rsquo;s Portfolio</span>
+				&mdash;
+				<span class="work__text__content">
+					Portfolio for the award-winning filmmaker, Varun Chopra.
+				</span>
+			</p>
+
+		</div>
+
+		<div class="work__module work__module--medium">
+			<!-- <div class="window">
+
+				<div class="window__title">
+
+					<div class="window__title__button-group">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="window__title__url">
+						<a href="http://varunchoprafilms.com">varunchoprafilms.com</a>
+					</div>
+
+					<div class="filler"></div>
+
+				</div> -->
+
+				<a href="{{ site.baseurl }}/volo">
+					<!-- <div class="window__body"> -->
+						<img src="{{ site.baseurl }}/assets/img/shot--volo1.png">
+					<!-- </div>	 -->
+				</a>	
+				
+			<!-- </div> -->
+			<p class="work__text">
+				<span class="work__text__title">Volo</span>
+				&mdash;
+				<span class="work__text__content">
+					Volo is an app that lets travelers feel like locals, everywhere—connecting travelers with cool locals around the globe for authentic & personal experiences.
+				</span>
+			</p>
+
+		</div>
+
+		<div class="work__module work__module--medium">
+			<div class="window">
+
+				<div class="window__title">
+
+					<div class="window__title__button-group">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="window__title__url">
+						<a href="http://varunchoprafilms.com">divergentengineering.com</a>
+					</div>
+
+					<div class="filler"></div>
+
+				</div>
+
+				<a href="#">
+					<div class="window__body">
+						<img src="{{ site.baseurl }}/assets/img/shot--dive1.png">
+					</div>
+				</a>	
+				
+			</div>
+			<p class="work__text">
+				<span class="work__text__title">Divergent Engineering</span>
+				&mdash;
+				<span class="work__text__content">
+					Website for student club organization, Divergent Engineering at UC San Diego.
+				</span>
+			</p>
+
+		</div>
+		
+		
+		<!-- <img src="{{ site.baseurl }}/assets/img/1.png"> -->
+
+		  
+</section>
+
+<section class="section section--full archive">
+	<div class="col col--1">
+		<hr>
+
+		<p class="archive__heading">An archive of stuff that got swept under the rug.</p>
+	</div>
+	
+	<div class="col col--2">
+		<dl class="archive__list">
+			<dt class="archive__list__title"><a href="http://zine-old.prabhav.xyz">The ’Zine v1</a></dt>
+			<span class=""></span>
+			<dd class="archive__list__tldr">The old site for The ’Zine. Was pretty, but bad backend + non-functional design.</dd>
+		</dl>
+		<dl class="archive__list">
+			<dt class="archive__list__title"><a href="http://modules.prabhav.xyz">Modules</a></dt>
+			<span class=""></span>
+			<dd class="archive__list__tldr">A one-issue-wonder music magazine.</dd>
+		</dl>
+		<dl class="archive__list">
+			<dt class="archive__list__title"><a href="http://munqsmun.com">MUNQSMUN</a></dt>
+			<span class=""></span>
+			<dd class="archive__list__tldr">Model UN Conference hosted by my high school.</dd>
+		</dl>
+		<dl class="archive__list">
+			<dt class="archive__list__title"><a href="http://modules-splash.prabhav.xyz">Modules Splash Page</a></dt>
+			<span class=""></span>
+			<dd class="archive__list__tldr">Bright and bold landing page for Modules. I really liked how opinionated this was.</dd>
+		</dl>
+		<dl class="archive__list">
+			<dt class="archive__list__title"><a href="http://personalitypillars.prabhav.xyz/">Personality Pillars</a></dt>
+			<span class=""></span>
+			<dd class="archive__list__tldr">Site for my friend's mom's personality development class. The way I got paid for this one was super cute.</dd>
+		</dl>
+		<dl class="archive__list">
+			<dt class="archive__list__title"><a href="http://collegify.prabhav.xyz">Collegify</a></dt>
+			<span class=""></span>
+			<dd class="archive__list__tldr">Splash page for a college admissions consultancy. This one never got to see the light of day.</dd>
+		</dl>
+		<dl class="archive__list">
+			<dt class="archive__list__title"><a href="http://exun.prabhav.xyz">Exun Prelims</a></dt>
+			<span class=""></span>
+			<dd class="archive__list__tldr">Cute little page I whipped up for the Creative Event at Exun, DPS RK Puram. 2014? 2015? Huh?</dd>
+		</dl>
+		<dl class="archive__list">
+			<dt class="archive__list__title"><a href="http://milkyway.prabhav.xyz">MilkyWay</a></dt>
+			<span class=""></span>
+			<dd class="archive__list__tldr">Page for the fun android game, MilkyWay. Made by one of my best friends in the world, when he was 15.</dd>
+		</dl>
+		<dl class="archive__list">
+			<dt class="archive__list__title"><a href="http://warp.prabhav.xyz">WarP</a></dt>
+			<span class=""></span>
+			<dd class="archive__list__tldr">The event site for the annual competition my school's computer club hosts. This one's from 2014? 2015? Huh?</dd>
+		</dl>
+		<dl class="archive__list">
+			<dt class="archive__list__title"><a href="http://blackandyellow.prabhav.xyz">Black &amp; Yellow</a></dt>
+			<span class=""></span>
+			<dd class="archive__list__tldr">Random shit I cooked up in all the weird places. This one never fails to make me smile.</dd>
+		</dl>
+
+	</div>
+
+</section>
+
+
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/production.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
