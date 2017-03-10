@@ -3,6 +3,11 @@
 @import "settings";
 @import "base";
 
+html {
+	// cursor: url(../icons/default.png)9 0,auto;
+ //    cursor: -webkit-image-set(url(../icons/default.png)1x,url(../icons/default2x.png)2x)9 0,auto;
+}
+
 body {
 	background: white;
 	font-size: 1rem;
@@ -406,3 +411,47 @@ header.masthead {
 		}
 	}
 }
+
+footer {
+
+	// .col {
+	word-break: break-all;
+	
+		@include small {
+			padding: 2rem;
+		}
+	// }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
