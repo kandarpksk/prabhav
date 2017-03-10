@@ -4,8 +4,8 @@
 @import "base";
 
 html {
-	// cursor: url(../icons/default.png)9 0,auto;
- //    cursor: -webkit-image-set(url(../icons/default.png)1x,url(../icons/default2x.png)2x)9 0,auto;
+	cursor: url(../img/pointer--auto.svg)9 0,auto;
+    // cursor: -webkit-image-set(url(../img/pointer--auto.svg)1x,url(../icons/default2x.png)2x)9 0,auto;
 }
 
 body {
@@ -70,6 +70,34 @@ header.masthead {
 
 	&--off {
 		display: none;
+	}
+
+	.col--half:nth-child(1) {
+		li:nth-child(1) {
+			list-style-image: url('../img/doodle.svg');
+		}
+
+		padding-bottom: 0;
+
+		@include small {
+			padding-bottom: 0;
+		}
+	}
+
+	.col--half:nth-child(2) {
+		padding-top: 0;
+
+		@include small {
+			padding-top: 2rem;
+		}
+	}
+
+	p {
+		margin-bottom: 1.75rem;
+	}
+
+	ul {
+		// list-style: none;
 	}
 
 
@@ -416,7 +444,7 @@ footer {
 
 	// .col {
 	word-break: break-all;
-	
+
 		@include small {
 			padding: 2rem;
 		}
